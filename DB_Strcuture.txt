@@ -1,0 +1,17 @@
+ProductQuickView
+------
+
+Id
+Name
+Description
+Price
+Size
+Rating
+Images1/2/3
+Category
+Color
+NoOfCounts
+
+------
+
+Product
