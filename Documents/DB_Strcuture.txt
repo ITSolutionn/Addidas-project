@@ -1,6 +1,6 @@
 UserRegisteration
 -----------------
-RegId(Pk)
+UserRegisterationID(PK)
 Name
 Email
 Password
@@ -14,13 +14,13 @@ CreatedDate
 
 ProductMaster
 ------
-ProductId(Pk)
-Name
-Description
+ProductMasterID(PK)
+ProductName
+ProductDescription
 Price
 Size
 Rating
-ColorId(fk)(ProductColorMaster)
+ColorMasterID(FK)(ProductColorMaster)
 NoOfCounts
 CreatedDate
 
@@ -28,27 +28,27 @@ CreatedDate
 
 CategoryMaster
 -------------------
-CategoryId(pk)
+CategoryMasterID(PK)
 CategoryName
 
 
-ProductCategoryMaster
+ProductCategory
 ---------------------
-ProductCategoryId(pk)
-CategoryId(fk)(CategoryMaster)
-ProductId(fk)(ProductMaster)
+ProductCategoryID(FK)
+CategoryMasterID(FK)(CategoryMaster)
+ProductMasterID(FK)(ProductMaster)
 CreatedDate
 
 ProductColorMaster
 ------------------
-ColorId(pk)
+ColorMasterID(PK)
 ColorName
 
 
-ImageMaster
+ProductImage
 ------------------
-ImageId(pk)
-ProductId
+ProductImageID(PK)
+ProductMasterID(FK)
 ImagePath
 ImageName
 CreatedDate
