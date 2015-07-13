@@ -3,3 +3,8 @@ D:\Addidas1\Addidas.Data\bin\Debug\Addidas.Data.pdb
 D:\Addidas1\Addidas.Data\obj\Debug\Addidas.Data.csprojResolveAssemblyReference.cache
 D:\Addidas1\Addidas.Data\obj\Debug\Addidas.Data.dll
 D:\Addidas1\Addidas.Data\obj\Debug\Addidas.Data.pdb
+C:\Users\Amit\Documents\GitHub\Addidas-project\AddidasDemo\Addidas.Data\bin\Debug\Addidas.Data.dll
+C:\Users\Amit\Documents\GitHub\Addidas-project\AddidasDemo\Addidas.Data\bin\Debug\Addidas.Data.pdb
+C:\Users\Amit\Documents\GitHub\Addidas-project\AddidasDemo\Addidas.Data\obj\Debug\Addidas.Data.csprojResolveAssemblyReference.cache
+C:\Users\Amit\Documents\GitHub\Addidas-project\AddidasDemo\Addidas.Data\obj\Debug\Addidas.Data.dll
+C:\Users\Amit\Documents\GitHub\Addidas-project\AddidasDemo\Addidas.Data\obj\Debug\Addidas.Data.pdb

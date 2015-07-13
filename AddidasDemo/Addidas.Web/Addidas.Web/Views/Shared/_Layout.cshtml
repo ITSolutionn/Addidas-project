@@ -8,10 +8,11 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>*@
     <head>
-<title>Free Adidas Website Template | Home :: w3layouts</title>
+<title>AK Adidas </title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href=@Url.Content("~/Content/css/style.css") rel="stylesheet" type="text/css" media="all" />
+<link media="all" type="text/css" rel="stylesheet" href=@Url.Content("~/Content/css/form.css")>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src=@Url.Content("~/Scripts/js/jquery.min.js")></script>
 <script type="text/javascript">
@@ -53,6 +54,31 @@
 <!-- top scrolling -->
 <script type="text/javascript" src=@Url.Content("~/Scripts/js/move-top.js")></script>
 <script type="text/javascript" src=@Url.Content("~/Scripts/js/easing.js")></script>
+<link rel="stylesheet" href=@Url.Content("~/Content/css/etalage.css")>
+        <script src=@Url.Content("~/Scripts/js/jquery.flexisel.js")></script>
+        <script src=@Url.Content("~/Scripts/js/jquery.jscrollpane.min.js")></script>
+<script src=@Url.Content("~/Scripts/js/jquery.etalage.min.js")></script>
+        <!-- Include the Etalage files -->
+				<script>
+				    jQuery(document).ready(function ($) {
+
+				        $('#etalage').etalage({
+				            thumb_image_width: 300,
+				            thumb_image_height: 400,
+
+				            show_hint: true,
+				            click_callback: function (image_anchor, instance_id) {
+				                alert('Callback example:\nYou clicked on an image with the anchor: "' + image_anchor + '"\n(in Etalage instance: "' + instance_id + '")');
+				            }
+				        });
+				        // This is for the dropdown list example:
+				        $('.dropdownlist').change(function () {
+				            etalage_show($(this).find('option:selected').attr('class'));
+				        });
+
+				    });
+				</script>
+				<!----//details-product-slider--->	
  <script type="text/javascript">
      jQuery(document).ready(function ($) {
          $(".scroll").click(function (event) {
@@ -62,11 +88,12 @@
      });
 	</script>
 </head>
+    
 <body>
     <div class="header-top">
 	 <div class="wrap"> 
 		<div class="logo">
-			<a href="index.html"><img src="../../images/logo.png" alt=""/></a>
+			<a href='@Url.Action("Index", "Home")'><img src="../../images/logo.png" alt=""/></a>
 	    </div>
 	    <div class="cssmenu">
 		   <ul>

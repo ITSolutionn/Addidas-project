@@ -2,3 +2,7 @@ D:\Addidas1\Addidas.Common\bin\Debug\Addidas.Common.dll
 D:\Addidas1\Addidas.Common\bin\Debug\Addidas.Common.pdb
 D:\Addidas1\Addidas.Common\obj\Debug\Addidas.Common.dll
 D:\Addidas1\Addidas.Common\obj\Debug\Addidas.Common.pdb
+C:\Users\Amit\Documents\GitHub\Addidas-project\AddidasDemo\Addidas.Common\bin\Debug\Addidas.Common.dll
+C:\Users\Amit\Documents\GitHub\Addidas-project\AddidasDemo\Addidas.Common\bin\Debug\Addidas.Common.pdb
+C:\Users\Amit\Documents\GitHub\Addidas-project\AddidasDemo\Addidas.Common\obj\Debug\Addidas.Common.dll
+C:\Users\Amit\Documents\GitHub\Addidas-project\AddidasDemo\Addidas.Common\obj\Debug\Addidas.Common.pdb

@@ -2,3 +2,7 @@ D:\Addidas1\Addidas.Model\bin\Debug\Addidas.Model.dll
 D:\Addidas1\Addidas.Model\bin\Debug\Addidas.Model.pdb
 D:\Addidas1\Addidas.Model\obj\Debug\Addidas.Model.dll
 D:\Addidas1\Addidas.Model\obj\Debug\Addidas.Model.pdb
+C:\Users\Amit\Documents\GitHub\Addidas-project\AddidasDemo\Addidas.Model\bin\Debug\Addidas.Model.dll
+C:\Users\Amit\Documents\GitHub\Addidas-project\AddidasDemo\Addidas.Model\bin\Debug\Addidas.Model.pdb
+C:\Users\Amit\Documents\GitHub\Addidas-project\AddidasDemo\Addidas.Model\obj\Debug\Addidas.Model.dll
+C:\Users\Amit\Documents\GitHub\Addidas-project\AddidasDemo\Addidas.Model\obj\Debug\Addidas.Model.pdb
