@@ -6,28 +6,30 @@ using System.Web.Mvc;
 
 namespace Addidas.Web.Controllers
 {
-    public class HomeController : Controller
+    public class ProductController : Controller
     {
         //
-        // GET: /Home/
+        // GET: /Product/
 
         public ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult Login()
+        [HttpGet]
+        public ActionResult ProductAdd() {
+            return View();
+        }
+
+        public ActionResult Shop()
         {
             return View();
         }
 
-        
-        public ActionResult Register()
+        public ActionResult Single()
         {
             return View();
         }
-
         
-
     }
 }
