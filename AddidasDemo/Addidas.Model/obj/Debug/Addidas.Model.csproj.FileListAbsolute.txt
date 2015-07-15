@@ -6,3 +6,7 @@ C:\Users\Amit\Documents\GitHub\Addidas-project\AddidasDemo\Addidas.Model\bin\Deb
 C:\Users\Amit\Documents\GitHub\Addidas-project\AddidasDemo\Addidas.Model\bin\Debug\Addidas.Model.pdb
 C:\Users\Amit\Documents\GitHub\Addidas-project\AddidasDemo\Addidas.Model\obj\Debug\Addidas.Model.dll
 C:\Users\Amit\Documents\GitHub\Addidas-project\AddidasDemo\Addidas.Model\obj\Debug\Addidas.Model.pdb
+D:\Work\Addidas\Code\Addidas.Model\bin\Debug\Addidas.Model.dll
+D:\Work\Addidas\Code\Addidas.Model\bin\Debug\Addidas.Model.pdb
+D:\Work\Addidas\Code\Addidas.Model\obj\Debug\Addidas.Model.dll
+D:\Work\Addidas\Code\Addidas.Model\obj\Debug\Addidas.Model.pdb
