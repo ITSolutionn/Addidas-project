@@ -8,14 +8,20 @@ namespace Addidas.Web.Controllers
 {
     public class ProductController : Controller
     {
-        //
-        // GET: /Product/
 
+        #region Declaration
+        #endregion
+
+        #region Action
         public ActionResult Index()
         {
             return View();
         }
 
+        /// <summary>
+        /// ProductAdd
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public ActionResult ProductAdd() {
             return View();
@@ -30,6 +36,9 @@ namespace Addidas.Web.Controllers
         {
             return View();
         }
-        
+        #endregion
+
+        #region methods
+        #endregion
     }
 }
