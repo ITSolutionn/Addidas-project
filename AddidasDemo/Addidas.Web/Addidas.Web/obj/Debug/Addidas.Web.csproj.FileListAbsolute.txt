@@ -57,6 +57,8 @@ C:\Users\Amit\Desktop\AddidasDemo\Addidas.Web\Addidas.Web\bin\System.Web.WebPage
 C:\Users\Amit\Desktop\AddidasDemo\Addidas.Web\Addidas.Web\bin\System.Web.WebPages.Razor.xml
 C:\Users\Amit\Desktop\AddidasDemo\Addidas.Web\Addidas.Web\obj\Debug\Addidas.Web.dll
 C:\Users\Amit\Desktop\AddidasDemo\Addidas.Web\Addidas.Web\obj\Debug\Addidas.Web.pdb
+C:\Users\Amit\Documents\GitHub\Addidas-project\AddidasDemo\Addidas.Web\Addidas.Web\bin\Addidas.Model.dll
+C:\Users\Amit\Documents\GitHub\Addidas-project\AddidasDemo\Addidas.Web\Addidas.Web\bin\Addidas.Model.pdb
 D:\Addidas1\Addidas.Web\Addidas.Web\bin\Addidas.Web.dll
 D:\Addidas1\Addidas.Web\Addidas.Web\bin\Addidas.Web.pdb
 D:\Addidas1\Addidas.Web\Addidas.Web\bin\Addidas.Model.dll
@@ -89,5 +91,3 @@ D:\Addidas1\Addidas.Web\Addidas.Web\bin\System.Web.WebPages.Razor.xml
 D:\Addidas1\Addidas.Web\Addidas.Web\obj\Debug\Addidas.Web.csprojResolveAssemblyReference.cache
 D:\Addidas1\Addidas.Web\Addidas.Web\obj\Debug\Addidas.Web.dll
 D:\Addidas1\Addidas.Web\Addidas.Web\obj\Debug\Addidas.Web.pdb
-C:\Users\Amit\Documents\GitHub\Addidas-project\AddidasDemo\Addidas.Web\Addidas.Web\bin\Addidas.Model.dll
-C:\Users\Amit\Documents\GitHub\Addidas-project\AddidasDemo\Addidas.Web\Addidas.Web\bin\Addidas.Model.pdb
