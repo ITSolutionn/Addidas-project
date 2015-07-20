@@ -16,13 +16,13 @@ GO
 -- =============================================
 
 -- =============================================
-CREATE PROCEDURE Usp_InsertUser
+alter PROCEDURE Usp_InsertUser
 @Name varchar(50),
 @Email varchar(50),
 @Password varchar(15),
 @Address varchar(250),
-@Country varchar(10),
-@ContactNo INT,
+@Country varchar(50),
+@ContactNo varchar(20),
 @IsActive BIT,
 @IsDelete BIT   
 	
