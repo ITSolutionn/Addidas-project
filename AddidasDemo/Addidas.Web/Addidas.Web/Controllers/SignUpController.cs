@@ -12,8 +12,11 @@ namespace Addidas.Web.Controllers
     {
 
         #region Declaration
+
         AddidasRepository addidasRepository;
+
         #endregion
+
         #region Action
         //
         // GET: /SignUp/
@@ -22,6 +25,9 @@ namespace Addidas.Web.Controllers
         {
             return View();
         }
+
+        #region SignUp
+
         /// <summary>
         /// GET: Register
         /// </summary>
@@ -31,6 +37,7 @@ namespace Addidas.Web.Controllers
         {
             return View();
         }
+
         /// <summary>
         /// POSt: Register
         /// </summary>
@@ -52,12 +59,58 @@ namespace Addidas.Web.Controllers
                     return View();
                 }
             }
-            catch (Exception ex) {
+            catch (Exception ex)
+            {
                 throw ex;
             }
         }
 
         #endregion
+
+        #region Login
+
+        /// <summary>
+        /// Method for Login get.
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public ActionResult Login()
+        {
+            return View();
+        }
+
+        /// <summary>
+        /// Method for Login post
+        /// </summary>
+        /// <param name="UserRegisteration"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public ActionResult Login(Login login)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    addidasRepository = new AddidasRepository();
+                    int resultCount = addidasRepository.LoginUser(login);
+                    return View();
+                }
+                else
+                {
+                    return View();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        #endregion
+
+
+        #endregion
+
         #region Methods
         #endregion
     }

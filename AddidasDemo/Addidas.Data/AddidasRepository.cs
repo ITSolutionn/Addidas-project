@@ -14,12 +14,15 @@ namespace Addidas.Data
     {
 
         #region Methods
+
+        #region Registeration
+
         /// <summary>
         /// InsertUser
         /// </summary>
         /// <param name="UserRegisteration"></param>
         /// <returns></returns>
-        public int InsertUser(UserRegisteration UserRegisteration)
+        public int  InsertUser(UserRegisteration UserRegisteration)
         {
             SqlConnection conn = new SqlConnection(ConnectionString);
             SqlCommand cmd = new SqlCommand("Usp_InsertUser", conn);
@@ -32,15 +35,36 @@ namespace Addidas.Data
             cmd.Parameters.Add("ContactNo", SqlDbType.Text).Value = UserRegisteration.ContactNo;
             cmd.Parameters.Add("IsActive", SqlDbType.Bit).Value = true;
             cmd.Parameters.Add("IsDelete", SqlDbType.Bit).Value = false;
-
-              
-            
             conn.Open();
-            int resultCount =cmd.ExecuteNonQuery();
+            int resultCount = cmd.ExecuteNonQuery();
             conn.Close();
 
             return resultCount;
         }
+
+        #endregion
+
+        #region Login
+
+        public int LoginUser(Login login)
+        {
+            SqlConnection conn = new SqlConnection(ConnectionString);
+            SqlCommand cmd = new SqlCommand("Usp_LoginUser", conn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            
+            cmd.Parameters.Add("Email", SqlDbType.Text).Value = login.Email;
+            cmd.Parameters.Add("Password", SqlDbType.Text).Value = Utility.Encrypt(login.Password);
+            
+            conn.Open();
+            int resultCount = Convert.ToInt32(cmd.ExecuteScalar());
+            conn.Close();
+
+            return resultCount;
+        }
+
+        #endregion
+
+
         #endregion
     }
 }

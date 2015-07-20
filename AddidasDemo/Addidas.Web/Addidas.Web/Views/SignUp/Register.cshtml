@@ -28,7 +28,7 @@
                     @Html.ValidationMessageFor(model => model.Password)
                 </div>
                 <div class="editor-field">
-                    @Html.PasswordFor(model => model.ConfirmPassword, new { @placeholder = "ConformPassword" })
+                    @Html.PasswordFor(model => model.ConfirmPassword, new { @placeholder = "ConfirmPassword" })
                     @Html.ValidationMessageFor(model => model.ConfirmPassword)
                 </div>
             </div>
@@ -41,7 +41,7 @@
 
                 <div class="editor-field">
                     @Html.TextAreaFor(model => model.Address, new { @placeholder = "Address" })
-                    @Html.ValidationMessageFor(model => model.Country)
+                    @Html.ValidationMessageFor(model => model.Address)
                 </div>
                 <div class="editor-field">
                     @Html.TextBoxFor(model => model.ContactNo, new { @placeholder = "Contactno" })
@@ -70,7 +70,7 @@
 </div>
 
 <script type="text/javascript">
-    $(Document).ready(function () {
+    $(document).ready(function () {
 
     });
 </script>

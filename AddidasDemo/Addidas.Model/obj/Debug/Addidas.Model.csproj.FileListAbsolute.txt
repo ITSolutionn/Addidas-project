@@ -11,3 +11,4 @@ D:\Addidas1\Addidas.Model\bin\Debug\Addidas.Model.pdb
 D:\Addidas1\Addidas.Model\obj\Debug\Addidas.Model.dll
 D:\Addidas1\Addidas.Model\obj\Debug\Addidas.Model.pdb
 D:\Addidas1\Addidas.Model\obj\Debug\Addidas.Model.csprojResolveAssemblyReference.cache
+D:\Work\Addidas\Code\Addidas.Model\obj\Debug\Addidas.Model.csprojResolveAssemblyReference.cache
