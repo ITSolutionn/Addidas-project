@@ -28,8 +28,8 @@ alter PROCEDURE Usp_InsertUser
 	
 AS
 BEGIN
-	Insert into tbl_UserRegisteration (Name,Email,Password,Country,ContactNo,IsActive,IsDelete,CreatedDate)
-	 values(@Name,@Email,@Password,@Country,@ContactNo,@IsActive,@IsDelete,GETDATE())	
+	Insert into tbl_UserRegisteration (Name,Email,Password,Address,Country,ContactNo,IsActive,IsDelete,CreatedDate)
+	 values(@Name,@Email,@Password,@Address,@Country,@ContactNo,@IsActive,@IsDelete,GETDATE())	
 
 END
 
