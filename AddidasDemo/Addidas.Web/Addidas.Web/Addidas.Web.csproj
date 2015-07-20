@@ -122,8 +122,10 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\ApplicationManager.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\SignUpController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -286,10 +288,10 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Product\Shop.cshtml" />
-    <Content Include="Views\Home\Register.cshtml" />
     <Content Include="Views\Product\Single.cshtml" />
     <Content Include="Views\Product\_ProductFilter.cshtml" />
     <Content Include="Views\Product\ProductAdd.cshtml" />
+    <Content Include="Views\SignUp\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -299,6 +301,10 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Addidas.Data\Addidas.Data.csproj">
+      <Project>{bffe6c8e-5663-41a9-9b13-05e88cdc73c5}</Project>
+      <Name>Addidas.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Addidas.Model\Addidas.Model.csproj">
       <Project>{3f0d814c-8195-4f2a-8ada-3a091c420a47}</Project>
       <Name>Addidas.Model</Name>

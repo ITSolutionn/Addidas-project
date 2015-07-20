@@ -22,10 +22,7 @@ namespace Addidas.Web.Controllers
         }
 
         
-        public ActionResult Register()
-        {
-            return View();
-        }
+        
 
         
 

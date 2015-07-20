@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -39,8 +40,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddidasRepository.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="DataAccessComponunt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Addidas.Common\Addidas.Common.csproj">
+      <Project>{77a05d31-af7d-4f61-9db4-e7fcc359d8f3}</Project>
+      <Name>Addidas.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Addidas.Model\Addidas.Model.csproj">
+      <Project>{3f0d814c-8195-4f2a-8ada-3a091c420a47}</Project>
+      <Name>Addidas.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
